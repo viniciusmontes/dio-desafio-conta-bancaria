@@ -5,9 +5,9 @@ public class Cliente {
 
     private String nome;
 
-    private Cliente() {}
+    public Cliente() {}
 
-    private Cliente(String nome) {
+    public Cliente(String nome) {
         this.nome = nome;
     }
 

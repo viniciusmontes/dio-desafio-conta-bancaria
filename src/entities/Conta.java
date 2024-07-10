@@ -34,11 +34,11 @@ public class Conta implements ContaInterface {
     @Override
     public void depositar(double valor) {
         if (valor > 0) {
-            saldo += valor;
-            System.out.println("Deposito realizado com sucesso!");
+            this.saldo += valor;
+            System.out.println("Depósito realizado com sucesso!");
+        } else {
+            System.out.println("Não foi possível realizar o depósito!");
         }
-        System.out.println("Não foi possivel realizar o deposito!");
-
     }
 
     @Override
